@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST" name="form1" id="form1" align=center onsubmit="return validarDados()">
+        <h1>Formulario Principal</h1>
+        <div id="principal" width=200 heigth=200>
+            <br>
+            <br>
+            <p>Nome <input type="text" name="nome" id="nome"></p>
+            <p>Email <input type="email" name="Email" id="Email" size="52" maxlength="150"></p>
+            <p>Comentario</p>
+            <textarea name="Comentario" cols="50" rows="8" id="comentario" value="" style="resize: none;"
+                input></textarea>
+            <p>Pesquisa</p>
+            <p>Primeira vez na página???</p>
+            <div>
+                <input type="radio" name="sim" id="sim">Sim
+                <input type="radio" name="nao" id="nao">Não
+            </div>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+
+    </form>
+
+</body>
+<script src="script.js"></script>
+
+</html>
